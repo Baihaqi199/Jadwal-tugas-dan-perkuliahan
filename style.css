@@ -1,0 +1,22 @@
+/* Custom Background untuk Body */
+.custom-bg {
+    background-image: 
+        linear-gradient(#e5e7eb 1px, transparent 1px), 
+        linear-gradient(90deg, #e5e7eb 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+/* Custom Background untuk Hari di Kalender */
+.calendar-day-bg {
+    background-image: radial-gradient(#cbd5e1 0.5px, transparent 0.5px);
+    background-size: 12px 12px;
+}
+
+/* Hide scrollbar jika terlalu banyak tugas */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
